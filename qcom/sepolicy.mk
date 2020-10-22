@@ -16,7 +16,7 @@ ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/syberia/sepolicy/qcom/dynamic
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/syberia/sepolicy/qcom/dynamic \
     device/syberia/sepolicy/qcom/vendor
 endif
