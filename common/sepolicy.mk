@@ -22,4 +22,9 @@ else
 BOARD_SEPOLICY_DIRS += \
     device/syberia/sepolicy/common/dynamic \
     device/syberia/sepolicy/common/vendor
+
+ifeq ($(TARGET_BOARD_PLATFORM), kona)
+BOARD_SEPOLICY_M4DEFS += \
+    sysfs_battery_supply=vendor_sysfs_battery_supply
+endif
 endif
