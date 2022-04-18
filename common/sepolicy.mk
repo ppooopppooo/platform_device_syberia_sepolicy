@@ -21,7 +21,8 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/syberia/sepolicy/common/dynamic \
-    device/syberia/sepolicy/common/vendor
+    device/syberia/sepolicy/common/vendor \
+    hardware/google/pixel-sepolicy/flipendo
 
 ifeq ($(TARGET_BOARD_PLATFORM), kona)
 BOARD_SEPOLICY_M4DEFS += \
