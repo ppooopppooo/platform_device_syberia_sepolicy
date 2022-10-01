@@ -1,6 +1,3 @@
-# MatLog calls dmesg
-allow platform_app kernel:system syslog_read;
-
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
 
