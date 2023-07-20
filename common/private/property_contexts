@@ -3,3 +3,12 @@ vendor.camera.aux.packageexcludelist   u:object_r:vendor_persist_camera_prop:s0
 vendor.camera.aux.packagelist          u:object_r:vendor_persist_camera_prop:s0
 
 sys.camera.miui.apk                u:object_r:exported_system_prop:s0
+
+# Dolby
+ro.vendor.audio.dolby.dax.support	u:object_r:exported_system_prop:s0
+
+# Recovery update
+persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
+
+# xtra-daemon control
+persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool

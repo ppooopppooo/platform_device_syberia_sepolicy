@@ -2,3 +2,6 @@
 system_vendor_config_prop(vendor_persist_camera_prop)
 
 type sf_lcd_density_prop, property_type;
+
+# xtra-daemon control
+system_restricted_prop(xtra_control_prop)
