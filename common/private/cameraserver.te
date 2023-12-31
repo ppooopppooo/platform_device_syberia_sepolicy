@@ -1,2 +1,4 @@
 # Use HALs
 hal_client_domain(cameraserver, hal_lineage_camera_motor)
+
+allow cameraserver exported_system_prop:sock_file { write };
